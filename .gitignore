@@ -1,11 +1,23 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-
-# production
-/dist
-
-# misc
+*.iml
+.idea/
+.ipr
+.iws
+*~
+~*
+*.diff
+*.patch
+*.bak
 .DS_Store
-npm-debug.log*
+Thumbs.db
+.project
+.*proj
+.svn/
+*.swp
+*.pyc
+*.pyo
+node_modules
+bower_components/
+npm-debug.log
+.module-cache
+.*.sw*
+dist
